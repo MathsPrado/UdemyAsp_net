@@ -8,14 +8,14 @@ using SalesMVC.Models;
 namespace SalesMVC.Migrations
 {
     [DbContext(typeof(SalesMVCContext))]
-    [Migration("20200210020504_Initial")]
+    [Migration("20200503221706_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
+                .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("SalesMVC.Models.Department", b =>

@@ -31,6 +31,7 @@ namespace SalesMVC.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+
             migrationBuilder.CreateTable(
                 name: "SalesRecord",
                 columns: table => new
